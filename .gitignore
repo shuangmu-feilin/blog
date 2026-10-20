@@ -1,0 +1,18 @@
+# sqlite数据库
+db.sqlite3
+db.sqlite3-journal
+
+# python缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 环境变量文件
+.env
+
+# vscode
+.vscode/
+
+# idea
+./idea
