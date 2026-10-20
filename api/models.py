@@ -5,7 +5,6 @@ from django.db import models
 
 class UserInfo(models.Model):
     objects = models.Manager()
-    # db_index建立索引加速查询
     username = models.CharField(verbose_name="用户名", max_length=32, unique=True)
     password = models.CharField(verbose_name="密码", max_length=64)
     # db_index建立索引加速查询
